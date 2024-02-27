@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: repeating-linear-gradient(
+    to right,
+    rgba(0, 0, 0.7),
+    rgba(255, 0, 0, 0.8),
+    rgba(0, 0, 0.7)
+  );
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-size: x-large;
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+  
+    cursor: pointer;
+    gap: 35px;
+  
+    color: white;
+  }
+  
