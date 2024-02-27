@@ -1,0 +1,39 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  font-size: xx-large;
+  font-family: "Courier New", Courier, monospace;
+
+  margin: 250px 200px;
+
+  color: white;
+}
+
+.name{
+  font-weight: bold;
+
+  color: #dcd746;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.profession{
+  overflow: hidden;
+  border-right: 0px ; 
+  white-space: nowrap; 
+  animation: escrevendo 2s steps(20, end) infinite;
+}
+
+
+
+
+
+
+
+@keyframes escrevendo {
+  from { width: 0; }
+  to { width: 34%; }
+}
+
