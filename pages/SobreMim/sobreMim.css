@@ -1,0 +1,61 @@
+.aboutMe {
+  position: relative;
+
+  font-family: "Courier New", Courier;
+  font-style: italic;
+  font-size: x-large;
+
+  margin: 30px 700px;
+
+  color: #dcd746;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+  overflow: hidden;
+  border-right: 10px;
+  white-space: nowrap;
+  animation: escrevendo 2s steps(20, end) infinite;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+
+  font-family: "Courier New", Courier;
+  font-style: italic;
+  font-size: large;
+
+  text-align: center;
+  text-decoration: solid;
+  text-align: justify;
+
+  margin-left: 500px;
+
+  color: rgb(233, 234, 226);
+}
+
+.skills {
+  font-family: "Courier New", Courier;
+  font-style: italic;
+  font-size: x-large;
+
+  margin: 40px 700px;
+
+  transition: transform 0.3s ease;
+  color: white;
+}
+
+.skills:hover {
+  transform: scale(1.1);
+}
+
+@keyframes escrevendo {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15%;
+  }
+}
