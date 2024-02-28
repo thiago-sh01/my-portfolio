@@ -27,7 +27,7 @@
     animation: escrevendo 2s steps(20, end) infinite;
   }
 
-  .images {
+  .footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -91,7 +91,7 @@
     animation: escrevendo 2s steps(20, end) infinite;
   }
 
-  .images {
+  .footer {
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -160,7 +160,7 @@
     animation: escrevendo 2s steps(20, end) infinite;
   }
 
-  .images {
+  .footer {
     position: absolute;
     display: flex;
     flex-direction: row;
