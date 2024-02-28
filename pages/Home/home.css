@@ -1,39 +1,200 @@
-.text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+@media only screen and (min-width: 1025px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 
-  font-size: xx-large;
-  font-family: "Courier New", Courier, monospace;
+    font-size: xx-large;
+    font-family: "Courier New", Courier, monospace;
 
-  margin: 250px 200px;
+    margin: 250px 200px;
 
-  color: white;
+    color: white;
+  }
+
+  .name {
+    font-weight: bold;
+
+    color: #dcd746;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .profession {
+    overflow: hidden;
+    border-right: 0px;
+    white-space: nowrap;
+    animation: escrevendo 2s steps(20, end) infinite;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+  }
+
+  .github {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .github:hover {
+    transform: scale(1.1);
+  }
+
+  .linkdlin {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .linkdlin:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes escrevendo {
+    from {
+      width: 0;
+    }
+    to {
+      width: 34%;
+    }
+  }
 }
 
-.name{
-  font-weight: bold;
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 
-  color: #dcd746;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-size: x-large;
+    font-family: "Courier New", Courier, monospace;
+
+    margin: 300px 100px;
+
+    color: white;
+  }
+
+  .name {
+    font-weight: bold;
+
+    color: #dcd746;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .profession {
+    overflow: hidden;
+    border-right: 10px;
+    white-space: nowrap;
+    animation: escrevendo 2s steps(20, end) infinite;
+  }
+
+  .images {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-left: 250px;
+
+    gap: 20px;
+  }
+
+  .github {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .github:hover {
+    transform: scale(1.1);
+  }
+
+  .linkdlin {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .linkdlin:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes escrevendo {
+    from {
+      width: 0;
+    }
+    to {
+      width: 75%;
+    }
+  }
 }
 
-.profession{
-  overflow: hidden;
-  border-right: 0px ; 
-  white-space: nowrap; 
-  animation: escrevendo 2s steps(20, end) infinite;
+@media only screen and (max-width: 600px) {
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: x-large;
+    font-family: "Courier New", Courier, monospace;
+
+    margin: 300px 50px;
+
+    color: white;
+  }
+
+  .name {
+    font-weight: bold;
+
+    color: #dcd746;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .profession {
+    overflow: hidden;
+    border-right: 10px;
+    white-space: nowrap;
+    animation: escrevendo 2s steps(20, end) infinite;
+  }
+
+  .images {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 80px;
+    margin-left: 150px;
+
+    gap: 20px;
+  }
+
+  .github {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .github:hover {
+    transform: scale(1.1);
+  }
+
+  .linkdlin {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .linkdlin:hover {
+    transform: scale(1.1);
+  }
+
+  @keyframes escrevendo {
+    from {
+      width: 0;
+    }
+    to {
+      width: 95%;
+    }
+  }
 }
-
-
-
-
-
-
-
-@keyframes escrevendo {
-  from { width: 0; }
-  to { width: 34%; }
-}
-

@@ -15,18 +15,56 @@ body {
   );
 }
 
-.pages {
+@media only screen and (max-width: 600px) {
+  .pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+
+    cursor: pointer;
+    gap: 25px;
+
+    margin-top: 40px;
+
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .pages {
     display: flex;
     justify-content: center;
     align-items: center;
-  
-    font-size: x-large;
+
+    font-size: 25px;
     font-family: "Courier New", Courier, monospace;
     list-style: none;
-  
+
     cursor: pointer;
     gap: 35px;
-  
+
     color: white;
   }
-  
+}
+
+@media only screen and (min-width: 1025px) {
+  .pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+
+    cursor: pointer;
+    gap: 35px;
+
+    color: white;
+  }
+}
