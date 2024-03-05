@@ -42,6 +42,7 @@
   font-size: x-large;
 
   margin: 40px 700px;
+  padding-bottom: 40px;
 
   transition: transform 0.3s ease;
   color: white;
@@ -57,6 +58,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .footer img {
   transition: transform 0.3s ease;
