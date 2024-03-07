@@ -1,0 +1,31 @@
+.conteiner {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  padding: 40px 40px;
+}
+
+.desafioFinal {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.desafioFinal img {
+  transition: transform 0.3s ease;
+}
+
+.desafioFinal img:hover {
+  transform: scale(1.1);
+
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 15px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+  z-index: -1;
+}
+
+.about p {
+  font: 300 large italic;
+  width: 400px;
+  color: rgb(213, 204, 204);
+}
