@@ -7,7 +7,7 @@
 .desafioFinal {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .desafioFinal img {
@@ -28,4 +28,24 @@
   font: 300 large italic;
   width: 400px;
   color: rgb(213, 204, 204);
+}
+
+.repository {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.repository a {
+  transition: transform 0.3s ease;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(238, 240, 119);
+}
+
+.repository a:hover {
+  transform: scale(1.1);
 }

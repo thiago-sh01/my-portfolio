@@ -59,7 +59,6 @@
   justify-content: center;
 }
 
-
 .footer img {
   transition: transform 0.3s ease;
 }
@@ -68,7 +67,9 @@
   transform: scale(1.1);
 }
 
-.frontEnd, .backEnd, .tools{
+.frontEnd,
+.backEnd,
+.tools {
   position: absolute;
 
   margin-top: 200px;
@@ -97,14 +98,13 @@
   color: white;
 }
 
-.frontEnd p{
+.frontEnd p {
   margin-left: 70px;
 }
 
-.backEnd p{
-margin-left: -20px;
+.backEnd p {
+  margin-left: 20px;
 }
-
 
 @keyframes escrevendo {
   from {
