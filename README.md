@@ -19,11 +19,11 @@ Seja muito bem-vindo à minha página principal de portfólio, um lugar onde a a
 
 Na parte superior desta página, você encontrará três caminhos distintos, cada um conduzindo a uma faceta única do meu portfólio:
 
-- **...Sobre Mim**: Aqui você descobrirá mais sobre minha jornada pessoal e profissional, minhas inspirações e aspirações.
+- **Sobre Mim**: Aqui você descobrirá mais sobre minha jornada pessoal e profissional, minhas inspirações e aspirações.
 
-- **...Portfólio**: Explore uma seleção cuidadosamente curada dos meus projetos mais recentes e significativos. Cada projeto é uma história em si, uma narrativa da minha criatividade, habilidades técnicas e dedicação.
+- **Portfólio**: Explore uma seleção cuidadosamente curada dos meus projetos mais recentes e significativos. Cada projeto é uma história em si, uma narrativa da minha criatividade, habilidades técnicas e dedicação.
 
-- **...Currículo**: Para uma visão detalhada da minha experiência profissional, habilidades técnicas e conquistas, você pode acessar meu currículo completo.
+- **Currículo**: Para uma visão detalhada da minha experiência profissional, habilidades técnicas e conquistas, você pode acessar meu currículo completo.
 
 
 Abaixo, você encontrará dois ícones que o levarão diretamente aos meus perfis no GitHub e LinkedIn. Sinta-se à vontade para explorar meu trabalho, fazer conexões e entrar em contato comigo para oportunidades de colaboração, feedback ou apenas para uma conversa amigável sobre tecnologia e criatividade.
