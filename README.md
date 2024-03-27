@@ -7,8 +7,6 @@ Neste portfólio, utilizei apenas JavaScript, HTML5, e CSS para criar uma experi
 Espero que este seja apenas o primeiro de muitos projetos que virão! ✨ E estou ansioso para aprimorar minhas habilidades cada vez mais. 💪
 
 
-
-
 ![Captura de tela 2024-03-20 164035](https://github.com/thiago-sh01/my-portfolio/assets/129800028/95d35fe0-4673-40f7-a567-53cc08a81d32)
 
 
@@ -34,8 +32,15 @@ Abaixo, você encontrará dois ícones que o levarão diretamente aos meus perfi
 Ao clicar na seção "Sobre Mim", você encontrará um texto que oferece uma visão mais pessoal sobre quem eu sou, minha jornada profissional e minhas ambições. Este espaço é onde compartilho um pouco da minha história e o que me motivou a seguir uma carreira na área da tecnologia.
 
 
-
 ![Captura de tela 2024-03-20 170318](https://github.com/thiago-sh01/my-portfolio/assets/129800028/3a4b2f16-4a22-42d3-b56e-a88899c9a98f)
 
 ![Captura de tela 2024-03-20 170332](https://github.com/thiago-sh01/my-portfolio/assets/129800028/4afa2ae7-c2b5-4214-a313-3f69ee4e133f)
+
+
+## Portifólio
+
+Bem-vindo à seção de portfólio do meu GitHub! Aqui você encontrará uma coleção dos projetos que desenvolvi e nos quais trabalhei. Cada projeto é uma oportunidade para aprender, crescer e contribuir para a comunidade de desenvolvimento de software. No momento, estou compartilhando um projeto, mas pretendo expandir esta seção com mais trabalhos no futuro.
+
+
+![Captura de tela 2024-03-20 170351](https://github.com/thiago-sh01/my-portfolio/assets/129800028/b84a3e03-c865-45b0-be9b-0938503bdd83)
 
