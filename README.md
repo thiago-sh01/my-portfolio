@@ -37,7 +37,7 @@ Ao clicar na seção "Sobre Mim", você encontrará um texto que oferece uma vis
 ![Captura de tela 2024-03-20 170332](https://github.com/thiago-sh01/my-portfolio/assets/129800028/4afa2ae7-c2b5-4214-a313-3f69ee4e133f)
 
 
-## Portifólio
+## Portifólio 🧾
 
 Bem-vindo à seção de portfólio do meu GitHub! Aqui você encontrará uma coleção dos projetos que desenvolvi e nos quais trabalhei. Cada projeto é uma oportunidade para aprender, crescer e contribuir para a comunidade de desenvolvimento de software. No momento, estou compartilhando um projeto, mas pretendo expandir esta seção com mais trabalhos no futuro.
 
