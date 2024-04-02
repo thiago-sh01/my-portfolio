@@ -5,13 +5,13 @@
   font-style: italic;
   font-size: x-large;
 
-  margin: 30px 700px;
+  margin: 1.875rem 43.75rem;
 
   color: #dcd746;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
   overflow: hidden;
-  border-right: 10px;
+  border-right: 0.625rem;
   white-space: nowrap;
   animation: escrevendo 2s steps(20, end) infinite;
 }
@@ -21,7 +21,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 600px;
+  width: 37.5rem;
 
   font-family: "Courier New", Courier;
   font-style: italic;
@@ -31,7 +31,7 @@
   text-decoration: solid;
   text-align: justify;
 
-  margin-left: 500px;
+  margin-left: 31.25rem;
 
   color: rgb(233, 234, 226);
 }
@@ -41,8 +41,8 @@
   font-style: italic;
   font-size: x-large;
 
-  margin: 40px 700px;
-  padding-bottom: 40px;
+  margin: 2.5rem 43.75rem;
+  padding-bottom: 2.5rem;
 
   transition: transform 0.3s ease;
   color: white;
@@ -72,20 +72,20 @@
 .tools {
   position: absolute;
 
-  margin-top: 200px;
-  padding-bottom: 50px;
+  margin-top: 12.5rem;
+  padding-bottom: 3.125rem;
 }
 
 .frontEnd {
-  margin-right: 800px;
+  margin-right: 50rem;
 }
 
 .backEnd {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .tools {
-  margin-left: 800px;
+  margin-left: 50rem;
 }
 
 .frontEnd p,
@@ -99,11 +99,11 @@
 }
 
 .frontEnd p {
-  margin-left: 70px;
+  margin-left: 4.375rem;
 }
 
 .backEnd p {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 @keyframes escrevendo {

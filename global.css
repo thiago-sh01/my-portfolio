@@ -22,14 +22,14 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "Courier New", Courier, monospace;
     list-style: none;
 
     cursor: pointer;
-    gap: 25px;
+    gap: 1.5625rem;
 
-    margin-top: 40px;
+    margin-top: 2.5rem;
 
     color: white;
   }
@@ -41,12 +41,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-family: "Courier New", Courier, monospace;
     list-style: none;
 
     cursor: pointer;
-    gap: 35px;
+    gap: 2.1875rem;
 
     color: white;
   }
@@ -58,12 +58,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Courier New", Courier, monospace;
     list-style: none;
 
     cursor: pointer;
-    gap: 35px;
+    gap: 2.1875rem;
 
     color: white;
   }
