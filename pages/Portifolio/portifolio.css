@@ -1,22 +1,28 @@
 .conteiner {
   background-color: rgba(0, 0, 0, 0.15);
-
-  padding: 2.5rem 2.5rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .desafioFinal {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3.125rem;
+  flex-wrap: wrap;
 }
 
 .desafioFinal img {
   transition: transform 0.3s ease;
+  max-width: 100%;
+  height: auto;
 }
 
 .desafioFinal img:hover {
   transform: scale(1.1);
-
   border: 1px solid transparent;
   border-radius: 0.625rem;
   box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
@@ -26,24 +32,25 @@
 
 .about p {
   font: 300 large italic;
-  width: 25rem;
+  max-width: 80%;
   color: rgb(213, 204, 204);
+  text-align: justify;
 }
 
 .repository {
   display: flex;
   flex-direction: column;
-
+  align-items: center;
   margin-bottom: 1.875rem;
   gap: 1.25rem;
 }
 
 .repository a {
   transition: transform 0.3s ease;
-
   cursor: pointer;
   text-decoration: none;
   color: rgb(238, 240, 119);
+  font-size: 1.1rem;
 }
 
 .repository a:hover {
@@ -52,13 +59,52 @@
 
 .skills {
   padding-bottom: 1.25rem;
+  text-align: center;
 }
 
 .skills p {
-  margin-left: 1.875rem;
   padding-bottom: 3.75rem;
-
   font: 300 large italic;
-  width: 25rem;
+  max-width: 80%;
   color: rgb(213, 204, 204);
+  text-align: justify;
+}
+
+@media (max-width: 1024px) {
+  .desafioFinal {
+    gap: 2rem;
+  }
+
+  .about p, 
+  .skills p {
+    max-width: 90%;
+  }
+
+  .repository a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .desafioFinal {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about p, 
+  .skills p {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 480px) {
+  .about p, 
+  .skills p {
+    font-size: small;
+    text-align: center;
+  }
+
+  .repository a {
+    font-size: 0.9rem;
+  }
 }

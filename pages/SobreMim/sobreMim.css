@@ -1,18 +1,19 @@
 .aboutMe {
   position: relative;
-
   font-family: "Courier New", Courier;
   font-style: italic;
   font-size: x-large;
+  text-align: center;
 
-  margin: 1.875rem 43.75rem;
+  margin: 1.875rem auto;
+  max-width: 80%;
 
   color: #dcd746;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
+  white-space: nowrap;
   overflow: hidden;
   border-right: 0.625rem;
-  white-space: nowrap;
   animation: escrevendo 2s steps(20, end) infinite;
 }
 
@@ -21,18 +22,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 37.5rem;
-
+  max-width: 80%;
+  margin: 1rem auto;
+  
   font-family: "Courier New", Courier;
   font-style: italic;
   font-size: large;
 
-  text-align: center;
-  text-decoration: solid;
   text-align: justify;
-
-  margin-left: 31.25rem;
-
   color: rgb(233, 234, 226);
 }
 
@@ -40,8 +37,9 @@
   font-family: "Courier New", Courier;
   font-style: italic;
   font-size: x-large;
+  text-align: center;
 
-  margin: 2.5rem 43.75rem;
+  margin: 2.5rem auto;
   padding-bottom: 2.5rem;
 
   transition: transform 0.3s ease;
@@ -67,25 +65,19 @@
   transform: scale(1.1);
 }
 
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .frontEnd,
 .backEnd,
 .tools {
-  position: absolute;
-
-  margin-top: 12.5rem;
-  padding-bottom: 3.125rem;
-}
-
-.frontEnd {
-  margin-right: 50rem;
-}
-
-.backEnd {
-  margin-left: 1.25rem;
-}
-
-.tools {
-  margin-left: 50rem;
+  margin: 1rem;
+  text-align: center;
 }
 
 .frontEnd p,
@@ -94,16 +86,7 @@
   font-family: "Courier New", Courier;
   font-style: italic;
   font-size: large;
-
   color: white;
-}
-
-.frontEnd p {
-  margin-left: 4.375rem;
-}
-
-.backEnd p {
-  margin-left: 1.25rem;
 }
 
 @keyframes escrevendo {
@@ -112,5 +95,55 @@
   }
   to {
     width: 15%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutMe {
+    font-size: large;
+    max-width: 90%;
+  }
+
+  .text {
+    font-size: medium;
+    max-width: 90%;
+  }
+
+  .skills {
+    font-size: large;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutMe {
+    font-size: medium;
+  }
+
+  .text {
+    font-size: small;
+  }
+
+  .skills {
+    font-size: medium;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutMe {
+    font-size: small;
+  }
+
+  .text {
+    font-size: small;
+    text-align: center;
+  }
+
+  .skills {
+    font-size: small;
   }
 }

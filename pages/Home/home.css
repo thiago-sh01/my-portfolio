@@ -157,7 +157,7 @@
     overflow: hidden;
     border-right: 0.625rem;
     white-space: nowrap;
-    animation: escrevendo 2s steps(20, end) infinite;
+    animation: escrevendo 2.5s steps(30, end) infinite;
   }
 
   .footer {
@@ -194,7 +194,7 @@
       width: 0;
     }
     to {
-      width: 95%;
+      width: 97%;
     }
   }
 }
